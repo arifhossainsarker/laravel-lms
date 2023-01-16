@@ -32,7 +32,19 @@
                             {{ $item->phone }}
                         </td>
                         <td class="px-6 py-4">
-                            <button>Delete</button>
+                            <div class="flex">
+                                <a href="">
+                                    @include('components.icons.eye')
+                                </a>
+                                <a href="{{ route('lead.edit', $item->id) }}">
+                                    @include('components.icons.edit')
+                                </a>
+                                <form onsubmit="return confirm('are you sure delete?')"
+                                    wire:submit.prevent='leadDelete({{ $item->id }})'>
+                                    <button type="submit">@include('components.icons.trash')</button>
+                                </form>
+                            </div>
+
                         </td>
                     </tr>
                 @endforeach

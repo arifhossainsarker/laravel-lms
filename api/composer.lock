@@ -2308,16 +2308,16 @@
         },
         {
             "name": "php-flasher/flasher-laravel",
-            "version": "v1.12.0",
+            "version": "v1.12.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/php-flasher/flasher-laravel.git",
-                "reference": "0783e03b5777674bb8ee9ee0656ad8b2d6d19423"
+                "reference": "2c3f3e801e0a00eae83313fc41a5f6660018648a"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/php-flasher/flasher-laravel/zipball/0783e03b5777674bb8ee9ee0656ad8b2d6d19423",
-                "reference": "0783e03b5777674bb8ee9ee0656ad8b2d6d19423",
+                "url": "https://api.github.com/repos/php-flasher/flasher-laravel/zipball/2c3f3e801e0a00eae83313fc41a5f6660018648a",
+                "reference": "2c3f3e801e0a00eae83313fc41a5f6660018648a",
                 "shasum": ""
             },
             "require": {
@@ -2356,23 +2356,30 @@
             "description": "Laravel package integrating PHPFlasher into Laravel applications",
             "homepage": "https://php-flasher.io",
             "keywords": [
-                "Flasher",
-                "alerts",
-                "bundle",
-                "flex",
+                "custom-adapter",
+                "dark-mode",
+                "desktop-notifications",
+                "flash-messages",
+                "framework-agnostic",
+                "javascript",
                 "laravel",
-                "lumen",
-                "messages",
-                "notifications",
-                "notify",
+                "notification-system",
+                "noty",
+                "notyf",
                 "php",
+                "php-flasher",
+                "phpstorm-auto-complete",
                 "pnotify",
+                "rtl",
+                "sweetalert",
                 "symfony",
                 "toastr",
+                "user-experience",
+                "user-feedback",
                 "yoeunes"
             ],
             "support": {
-                "source": "https://github.com/php-flasher/flasher-laravel/tree/v1.12.0"
+                "source": "https://github.com/php-flasher/flasher-laravel/tree/v1.12.1"
             },
             "funding": [
                 {
@@ -2396,7 +2403,7 @@
                     "type": "patreon"
                 }
             ],
-            "time": "2023-01-10T11:33:34+00:00"
+            "time": "2023-01-13T15:40:46+00:00"
         },
         {
             "name": "phpoption/phpoption",

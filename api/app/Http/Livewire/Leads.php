@@ -3,6 +3,7 @@
 namespace App\Http\Livewire;
 
 use App\Models\Lead;
+use Flasher\Prime\FlasherInterface;
 use Livewire\Component;
 use Livewire\WithPagination;
 
@@ -15,5 +16,15 @@ class Leads extends Component
         return view('livewire.leads', [
             'leads' => $leads
         ]);
+    }
+
+    // delete function
+    public function leadDelete($id, FlasherInterface $flasher)
+    {
+        $lead = Lead::findOrFail($id);
+        $lead->delete();
+
+        // $flasher->addSuccess('Delete Successfully');
+        Successfully_msg('Delete Successfully', $flasher);
     }
 }
